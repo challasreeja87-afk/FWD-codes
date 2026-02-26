@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academic Timetable</title>
+<style>
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        background: linear-gradient(to right, #e3f2fd, #fce4ec);
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+    }
+
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 95%;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    th {
+        background-color: #34495e;
+        color: white;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    td {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+        font-size: 13px;
+        transition: 0.3s ease;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    td:hover {
+        background-color: #d6eaf8;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    /* Different Subject Colors */
+    td:contains("GLB") { background-color: #ffe0b2; }
+    td:contains("DSA") { background-color: #c8e6c9; }
+    td:contains("MAI") { background-color: #f8bbd0; }
+    td:contains("FWD") { background-color: #d1c4e9; }
+    td:contains("CSE") { background-color: #b2dfdb; }
+</style>
+</head>
+<body>
+
+<h1 align="center">Academic Timetable</h1>
+
+<table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+        <th>Day / Period</th>
+	<th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+        <th>6</th>
+        <th>7</th>
+        <th>8</th>
+    </tr>
+
+    <tr>
+        <th>Monday</th>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>406</td>
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>406</td>
+
+        <td>-</td>
+        <td>-</td>
+
+        <td>25MT1205E<br>(MAI)<br>P-S-13<br>302</td>
+        <td>25MT1205E<br>(MAI)<br>P-S-13<br>302</td>
+    </tr>
+
+    <tr>
+        <th>Tuesday</th>
+        <td>25MT1205E<br>(MAI)<br>P-S-13<br>302</td>
+        <td>25MT1205E<br>(MAI)<br>P-S-13<br>302</td>
+
+        <td>25SC1104E<br>(FWD)<br>L-S-14<br>407</td>
+        <td>25SC1104E<br>(FWD)<br>L-S-14<br>407</td>
+
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>307</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>307</td>
+
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>HC-15B</td>
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>HC-15B</td>
+    </tr>
+
+    <tr>
+        <th>Wednesday</th>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+
+        <td>-</td>
+        <td>-</td>
+
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>406</td>
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>406</td>
+
+        <td>25MT1205E<br>(MAI)<br>L-S-13<br>401</td>
+        <td>25MT1205E<br>(MAI)<br>L-S-13<br>401</td>
+    </tr>
+
+    <tr>
+        <th>Thursday</th>
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>407</td>
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>407</td>
+
+        <td>-</td>
+        <td>-</td>
+
+        <td>25UC1204E<br>(CSE)<br>P-S-13<br>HC-15C</td>
+        <td>25UC1204E<br>(CSE)<br>P-S-13<br>HC-15C</td>
+
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>402</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>402</td>
+    </tr>
+
+    <tr>
+        <th>Friday</th>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15D</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15D</td>
+
+        <td>25UC1204E<br>(CSE)<br>P-S-13<br>HC-15C</td>
+        <td>25UC1204E<br>(CSE)<br>P-S-13<br>HC-15C</td>
+
+        <td>25SC1204E<br>(DSA)<br>L-S-15<br>403</td>
+        <td>25SC1204E<br>(DSA)<br>L-S-15<br>403</td>
+
+        <td>-</td>
+        <td>-</td>
+    </tr>
+
+    <tr>
+        <th>Saturday</th>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15B</td>
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>203</td>
+        <td>25SC1104E<br>(FWD)<br>S-S-14<br>203</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15D</td>
+        <td>25UC0035<br>(GLB)<br>S-S-14<br>HC-15D</td>
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>401</td>
+        <td>25SC1204E<br>(DSA)<br>S-S-15<br>401</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
